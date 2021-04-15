@@ -1,0 +1,37 @@
+/**
+*
+* Config
+*
+*/
+
+// Imoprt iz fajla za font
+@font-face {
+    font-family: regular;
+    src: url('/fonts/TITILLIUMWEB-REGULAR.TTF');
+}
+@font-face {
+    font-family: semibold;
+    src: url('/fonts/TITILLIUMWEB-SEMIBOLD.TTF');
+}
+@font-face {
+    font-family: bold;
+    src: url('/fonts/TITILLIUMWEB-BOLD.TTF');
+}
+@font-face {
+    font-family: light;
+    src: url('/fonts/TITILLIUMWEB-LIGHT.TTF');
+}
+
+// $primary-color: #b72a2c;
+$prim: #273747;
+$prim-dark: #222e3a;
+$prim-dark2: #1b222a;
+
+$gold: #8e7a3f;
+$red: #ff0000;
+
+
+* {
+    font-family: 'regular', arial, roboto;
+    scroll-behavior: smooth;
+}

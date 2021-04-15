@@ -1,0 +1,88 @@
+#list1  {
+    position: relative;
+
+    padding: 60px 0 30px 0;
+    h3 {
+        text-align: center;
+        font-size: 1.6em;
+        // font-weight: 500;
+    }
+
+  
+    .list-item {
+        display: flex;
+        align-items: center;
+        margin: 8px 0;
+        .icon-wrap {
+            padding: 5px;
+            width: 40px;
+            height: 40px;
+            background: $prim-dark;
+            border-radius: 50%;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 8px;
+        }
+        .item-text {
+            font-weight: 600;
+            color: $prim-dark;
+        }
+    }
+
+    // Navbar anchor point to scrool page
+    #indikacije {
+        position: absolute;
+        top: -70px;
+        width: 50px;
+        background: red;
+        z-index: 1000000;
+    }
+}
+
+
+#list2 {
+    text-align: center;
+    color: white;
+    background: $prim-dark;
+
+    .list-item {
+        display: flex;
+        align-items: center;
+        margin: 8px 0;
+        .icon-wrap {
+            padding: 5px;
+            width: 40px;
+            height: 40px;
+            background: $prim-dark2;
+            border-radius: 50%;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 8px;
+        }
+        .item-text {
+            font-weight: 500;
+            text-align: left;
+        }
+    }
+    .img-btn-wrapper {
+        position: relative;
+        .img-kutija {
+            position: absolute;
+            top: 50%; right: 70%;
+            transform: translate(50%,-50%);          
+            z-index: 2;
+        }
+        a {
+            position: absolute;
+            top: 50%; right: 42%;
+            transform: translate(50%,-50%);          
+            z-index: 1;
+        }
+    }
+    // SAmo za dugme preko slike
+    .padding-left {
+        padding-left: 40px !important;
+    }
+}

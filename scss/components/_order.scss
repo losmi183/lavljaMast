@@ -1,0 +1,51 @@
+#order {
+    position: relative;
+    border-bottom: 5px solid $gold;
+    
+    h4 {
+        font-size: 1.8em;
+        margin-bottom: 8px;
+    }
+    h5 {
+        font-weight: 600;
+        font-size: 1em;
+    }
+    h6 {
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    .color-gold {
+        font-family: bold;;
+        font-weight: 700;
+    }
+    .line-70 {
+        margin: 0 0 50px 0;
+    }
+
+    input {
+        font-weight: 600;
+        font-size: .8em;
+        color: black;
+    }
+    .select-area {
+        select {
+            font-weight: 600;
+            font-size: .8em;
+            margin-top: 5px;
+        }
+    }
+    .color-red {
+        font-weight: 500;
+    }
+    a.button {
+        margin: 40px 0;
+        color: white;
+    }
+    .img-wrapper {
+        position: absolute;
+        bottom: -35px;
+        left: 55%;
+        z-index: 10;
+    }
+
+}

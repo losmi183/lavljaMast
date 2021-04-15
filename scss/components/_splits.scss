@@ -1,0 +1,91 @@
+#split1 {
+    background: $prim-dark;
+    min-height: 514px;
+    margin-left: -2px;
+    position: relative;
+
+    
+    h4 {
+        font-size: 1.7rem;
+    }
+
+    .bg-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url('/img/old-man.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: 2;
+        height: 514px;
+        width: 50%;
+    }
+
+    .box-wrapper {
+        position: absolute;
+        z-index: 2;
+        bottom: -35px;
+        right: 10px;
+    }
+
+    .split1-content {
+        padding-left: 30px;
+        color: white;
+        z-index: 3;
+    }
+
+}
+
+#split2 {
+    background: $prim-dark;
+    min-height: 472px;
+    margin-left: -2px;
+    position: relative;
+
+    // .test {
+    //     position: absolute;
+    //     width: 50px;
+    //     height: 50px;
+    // }
+
+    .bg-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url('/img/doctor.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: 2;
+        height: 472px;
+        width: 50%;
+    }
+
+    .pecat-wrapper {
+        position: absolute;
+        z-index: 2;
+        bottom: 15px;
+        right: 300px;
+    }
+    
+    .split1-content {
+
+        h4 {
+            font-size: 1.7rem;
+        }
+
+        padding-left: 30px;
+        color: white;
+        z-index: 3;
+        line-height: 1.5;
+
+        p {
+            margin-bottom: 25px;
+        }
+    }
+    #saveti-lekara {
+        position: absolute;
+        top: -80px;
+    }
+
+
+}

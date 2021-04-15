@@ -1,0 +1,29 @@
+#sastojci {
+    position: relative;
+    #sastojci-anchor {
+        position: absolute;
+        top: -30px;
+    }
+}
+
+.sastojak {
+    margin-bottom: 30px;
+    display: flex;
+
+
+    .content {
+        padding-left: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        h4 {
+            margin-bottom: 8px;
+        }
+        p {
+            line-height: 1.4;
+        }
+    }
+
+    .img-wrapper {
+        min-width: 136px;
+    }
+}

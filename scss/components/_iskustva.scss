@@ -1,0 +1,55 @@
+#iskustva {
+    // text-align: center;
+    border-bottom: 5px solid $gold;
+
+    h4 {
+        font-size: 1.7rem;
+        // font-weight: 200;
+    }
+    p {
+        font-weight: 300;
+        font-size: 14px;
+    }
+    .controls {
+        img {
+            margin: 0 3px;
+        }
+    }
+
+    .controls {
+        text-align: center;        
+    }
+
+    .slick-initialized .slick-slide {
+        display: flex;
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .slick-prev{
+        top: -70px;
+        left: 50%;
+        transform: translate(-165%, 0);
+    }
+    .slick-next {
+        top: -70px;
+        right: 50%;
+        transform: translate(165%, 0);
+    }
+
+    .slick-prev:before {
+        font-family: 'slick';
+        font-size: 45px;
+        line-height: 1;
+        // opacity: .75;
+        color: #bbb;
+    }
+    .slick-next:before {
+        font-family: 'slick';
+        font-size: 45px;
+        line-height: 1;
+        // opacity: .75;
+        color: $gold;
+    }
+}

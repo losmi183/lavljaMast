@@ -1,0 +1,97 @@
+/**
+* CUSTOM CONTAINER
+*/
+
+  .vertical-line  {
+      border-left: 1px solid #405469;
+      border-right: 1px solid #19222b;
+      height: 50px;
+  }
+
+
+  .line-full {
+      background: $gold;
+      height: 6px;
+      border-radius: 6px; 
+      width: 100%;
+      margin: 15px 0 15px;
+  }
+  .line-75 {
+      background: $gold;
+      height: 6px;
+      border-radius: 6px; 
+      width: 75%;
+      margin: 15px 0 15px;
+  }
+
+  .line-70 {
+      background: $gold;
+      height: 8px;
+      border-radius: 8px; 
+      width: 70%;
+      margin: 15px 0 15px;
+  }
+  .line-50 {
+      background: $gold;
+      height: 8px;
+      border-radius: 8px; 
+      width: 50%;
+      margin: 15px 0 15px;
+  }
+  .line-35 {
+      background: $gold;
+      height: 8px;
+      border-radius: 8px; 
+      width: 35%;
+      margin: 15px 0 15px;
+  }
+  .line-20 {
+      background: $gold;
+      height: 8px;
+      border-radius: 8px; 
+      width: 20%;
+      margin: 15px 0 15px;
+  }
+  .line-100 {
+      background: $gold;
+      height: 5px;
+      width: 100%;
+      margin: 0;
+  }
+
+  .button {
+    position: relative;
+    display: inline-block;
+     background: $gold;
+     padding: 15px 60px 15px 25px;
+     color: white;
+     border-radius: 25px;
+     text-transform: uppercase;
+     font-size: 0.85em;
+     font-weight: 600;
+     .img-wrap {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       position: absolute;
+       background: white;
+       padding: 8px;
+       border-radius: 50%;
+       width: 40px;
+       height: 40px;
+       right: 5px;
+       bottom: 5px;
+     }
+     &:hover{
+       color: white;
+       text-decoration: none;
+     }
+  }
+
+
+  .font-light {
+    font-family: light;
+  }
+  .font-16 {
+    font-size: 16px;
+  }
